@@ -18,7 +18,7 @@ body {
     padding: 15px 35px;
 }
 
-.btn-secondary{
+.btn-secondary {
     border-radius: 5px;
     background: #FFF8F3;
     border: 1px solid #FD6E0A;
@@ -31,6 +31,19 @@ body {
 
 .fa-solid {
     margin-right: 10px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /*nav related styles*/
@@ -80,7 +93,7 @@ nav a {
     background-position: bottom right;
 }
 
-.banner .banner-content{
+.banner .banner-content {
     max-width: 500px;
 }
 
@@ -89,20 +102,50 @@ nav a {
 }
 
 .banner .banner-greeting {
-    color:#474747;
+    color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0;
 }
 
-.banner .banner-title{
+.banner .banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 0;
 }
 
-.banner .banner-description{
+.banner .banner-description {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about section styles */
+.about {
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.info-description{
+    margin-top: 0;
+    color: #474747;
+    font-weight: 700;
 }
