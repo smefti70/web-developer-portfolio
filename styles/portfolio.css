@@ -131,7 +131,6 @@ main {
     margin: 0 auto;
 }
 
-
 /* about section styles */
 .about {
     padding: 130px;
@@ -158,7 +157,6 @@ main {
 }
 
 /* what i do related styles */
-
 #what-i-do-description {
     padding: 30px 150px;
 }
@@ -221,4 +219,39 @@ main {
 .download-cv{
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer section styles */
+footer{
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+footer .social-links{
+    text-align: center;
+}
+
+footer .social-links a{
+    margin-right: 25px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 18px 30px;
+    background-color: #FFF;
+    margin-bottom: 25px;
 }
